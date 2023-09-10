@@ -1,4 +1,4 @@
-const NotebookIcon = ({ active }) => {
+const NotebookIcon = ({ active = null }) => {
   const defaultColor = '#555555';
   const activeColor = '#9837CA';
 

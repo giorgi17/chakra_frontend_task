@@ -6,6 +6,10 @@ const theme = extendTheme({
       100: '#9837CA',
     },
   },
+  fonts: {
+    heading: `'Archivo', sans-serif`,
+    body: `'Archivo', sans-serif`,
+  },
 });
 
 export default theme;

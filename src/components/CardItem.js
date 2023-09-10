@@ -7,7 +7,7 @@ import {
   Button,
 } from '@chakra-ui/react';
 
-const CardItem = ({ title, icon, text, buttonText, color, big }) => {
+const CardItem = ({ title, icon, text, buttonText, color, big = null }) => {
   return (
     <Card
       bgColor={color}

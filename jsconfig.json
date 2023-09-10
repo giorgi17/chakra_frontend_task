@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "target": "es6",
+    "baseUrl": "src",
+    "jsx": "preserve",
+    "checkJs": true,
+    "moduleResolution": "node"
+  }
+}

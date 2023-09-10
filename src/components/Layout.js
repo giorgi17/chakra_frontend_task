@@ -8,6 +8,7 @@ const Layout = ({ children }) => {
     <Box minHeight="100vh">
       <Header />
       <MainNavigation />
+
       <Box margin="auto" maxWidth="1200px">
         {children}
       </Box>
